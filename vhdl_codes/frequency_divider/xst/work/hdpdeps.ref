@@ -1,0 +1,8 @@
+V3 3
+FL D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.vhd 2014/10/12.17:04:26 P.20131013
+EN work/frequency_divider 1413126278 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frequency_divider/Behavioral 1413126279 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.vhd \
+      EN work/frequency_divider 1413126278

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\semester-4\HWSWCD\vhdl_codes\state_machine\state_machine.ncd
+OUTFILE=D:\semester-4\HWSWCD\vhdl_codes\state_machine\state_machine.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\semester-4\HWSWCD\vhdl_codes\state_machine
+LICENSE=WebPack
+USER_INFO=210949998_0_0_271

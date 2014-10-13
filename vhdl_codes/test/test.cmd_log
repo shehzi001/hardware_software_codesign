@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/test/test.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/test/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc3s1200e-fg320-4 test.ngc test.ngd  
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/test/test.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/test/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc3s1200e-fg320-4 test.ngc test.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -t 1 test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/test/test.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/test/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc3s1200e-fg320-4 test.ngc test.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -t 1 test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/test/test.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/test/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc3s1200e-fg320-4 test.ngc test.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -t 1 test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/test/test.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/test/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc3s1200e-fg320-4 test.ngc test.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -t 1 test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/test/test.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/test/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc3s1200e-fg320-4 test.ngc test.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -t 1 test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf test.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 

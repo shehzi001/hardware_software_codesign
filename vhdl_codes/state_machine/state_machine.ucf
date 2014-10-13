@@ -1,0 +1,5 @@
+NET "sel(0)" LOC = H18;
+NET "sel(1)" LOC = G18;
+NET "a" LOC = K15;
+NET "b" LOC = J15;
+NET "c" LOC = J14;

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\semester-4\HWSWCD\vhdl_codes\frequency_divider\frequency_divider.ncd
+OUTFILE=D:\semester-4\HWSWCD\vhdl_codes\frequency_divider\frequency_divider.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\semester-4\HWSWCD\vhdl_codes\frequency_divider
+LICENSE=WebPack
+USER_INFO=210949998_0_0_271

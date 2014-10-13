@@ -1,0 +1,8 @@
+V3 3
+FL D:/semester-4/HWSWCD/vhdl_codes/COUNT_3B/COUNT_3B.vhd 2014/10/12.18:45:29 P.20131013
+EN work/COUNT_3B 1413132347 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/COUNT_3B/COUNT_3B.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/COUNT_3B/Behavioral 1413132348 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/COUNT_3B/COUNT_3B.vhd EN work/COUNT_3B 1413132347

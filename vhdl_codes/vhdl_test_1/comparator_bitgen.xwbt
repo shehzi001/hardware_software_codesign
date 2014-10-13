@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\semester-4\HWSWCD\vhdl_codes\vhdl_test_1\comparator.ncd
+OUTFILE=D:\semester-4\HWSWCD\vhdl_codes\vhdl_test_1\comparator.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\semester-4\HWSWCD\vhdl_codes\vhdl_test_1
+LICENSE=WebPack
+USER_INFO=210949998_0_0_271

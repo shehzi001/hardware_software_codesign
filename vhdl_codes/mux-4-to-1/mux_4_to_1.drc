@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Oct 12 02:10:19 2014
+
+drc -z mux_4_to_1.ncd mux_4_to_1.pcf
+
+DRC detected 0 errors and 0 warnings.

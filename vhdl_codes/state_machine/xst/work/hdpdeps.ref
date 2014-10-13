@@ -1,0 +1,8 @@
+V3 3
+FL D:/semester-4/HWSWCD/vhdl_codes/state_machine/state_machine.vhd 2014/10/12.03:30:00 P.20131013
+EN work/state_machine 1413077537 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/state_machine/state_machine.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/state_machine/Behavioral 1413077538 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/state_machine/state_machine.vhd \
+      EN work/state_machine 1413077537

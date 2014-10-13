@@ -1,0 +1,8 @@
+V3 3
+FL D:/semester-4/HWSWCD/vhdl_codes/vhdl_test_1/comparator.vhd 2014/10/11.11:44:06 P.20131013
+EN work/comparator 1413031500 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/vhdl_test_1/comparator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparator/Behavioral 1413031501 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/vhdl_test_1/comparator.vhd \
+      EN work/comparator 1413031500

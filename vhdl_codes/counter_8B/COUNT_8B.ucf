@@ -1,0 +1,27 @@
+# 8 leds
+NET "COUNT[0]"      LOC = "J14";   # Sch name = JD10/LD0
+NET "COUNT[1]"      LOC = "J15";   # Sch name = JD9/LD1
+NET "COUNT[2]"      LOC = "K15";   # Sch name = JD8/LD2
+NET "COUNT[3]"      LOC = "K14";   # Sch name = JD7/LD3
+NET "COUNT[4]"      LOC = "E16";   # Sch name = LD4 s3e500 only
+NET "COUNT[5]"      LOC = "P16";   # Sch name = LD5 s3e500 only
+NET "COUNT[6]"      LOC = "E4";    # Sch name = LD6 s3e500 only
+NET "COUNT[7]"      LOC = "P4";    # Sch name = LD7 s3e500 only
+
+# 8 slide switches
+NET "DIN[0]"       LOC = "G18";   # Sch name = SW0
+NET "DIN[1]"       LOC = "H18";   # Sch name = SW1
+NET "DIN[2]"       LOC = "K18";   # Sch name = SW2
+NET "DIN[3]"       LOC = "K17";   # Sch name = SW3
+NET "DIN[4]"       LOC = "L14";   # Sch name = SW4
+NET "DIN[5]"       LOC = "L13";   # Sch name = SW5
+NET "DIN[6]"       LOC = "N17";   # Sch name = SW6
+NET "DIN[7]"       LOC = "R17";   # Sch name = SW7
+
+# 4 push buttons
+NET "RESET"      LOC = "B18";   # Sch name = BTN0
+NET "LD"      LOC = "D18";   # Sch name = BTN1
+NET "UP"      LOC = "E18";   # Sch name = BTN2
+
+# 50MHz clock pin for Nexys 2 Board
+NET "CLK"         LOC = "B8";    # Sch name = GCLK0

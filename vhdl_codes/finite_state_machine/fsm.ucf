@@ -1,0 +1,6 @@
+NET "sel(0)"   LOC = "G18";   # Sch name = SW0
+NET "sel(1)"   LOC = "H18";   # Sch name = SW1
+NET "output(0)"   LOC = "J14";   # Sch name = JD10/LD0
+NET "output(1)"   LOC = "J15";   # Sch name = JD9/LD1
+NET "clk"         LOC = "B8";    # Sch name = GCLK0
+NET "rst"   LOC = "B18";   # Sch name = BTN0

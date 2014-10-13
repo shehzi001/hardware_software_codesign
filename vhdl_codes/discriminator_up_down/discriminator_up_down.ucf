@@ -1,0 +1,6 @@
+# 8 leds
+NET "output"      LOC = "J14";   # Sch name = JD10/LD0
+
+# 8 slide switches
+NET "input"       LOC = "G18";   # Sch name = SW0
+NET "reference"   LOC = "H18";   # Sch name = SW1

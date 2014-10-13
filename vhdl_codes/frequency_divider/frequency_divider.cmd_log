@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc frequency_divider.ucf -p xc3s1200e-fg320-4 frequency_divider.ngc frequency_divider.ngd  
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc frequency_divider.ucf -p xc3s1200e-fg320-4 frequency_divider.ngc frequency_divider.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o frequency_divider_map.ncd frequency_divider.ngd frequency_divider.pcf 
+par -w -intstyle ise -ol high -t 1 frequency_divider_map.ncd frequency_divider.ncd frequency_divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml frequency_divider.twx frequency_divider.ncd -o frequency_divider.twr frequency_divider.pcf -ucf frequency_divider.ucf 
+bitgen -intstyle ise -f frequency_divider.ut frequency_divider.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc frequency_divider.ucf -p xc3s1200e-fg320-4 frequency_divider.ngc frequency_divider.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o frequency_divider_map.ncd frequency_divider.ngd frequency_divider.pcf 
+par -w -intstyle ise -ol high -t 1 frequency_divider_map.ncd frequency_divider.ncd frequency_divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml frequency_divider.twx frequency_divider.ncd -o frequency_divider.twr frequency_divider.pcf -ucf frequency_divider.ucf 
+bitgen -intstyle ise -f frequency_divider.ut frequency_divider.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/frequency_divider/frequency_divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc frequency_divider.ucf -p xc3s1200e-fg320-4 frequency_divider.ngc frequency_divider.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o frequency_divider_map.ncd frequency_divider.ngd frequency_divider.pcf 
+par -w -intstyle ise -ol high -t 1 frequency_divider_map.ncd frequency_divider.ncd frequency_divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml frequency_divider.twx frequency_divider.ncd -o frequency_divider.twr frequency_divider.pcf -ucf frequency_divider.ucf 
+bitgen -intstyle ise -f frequency_divider.ut frequency_divider.ncd 

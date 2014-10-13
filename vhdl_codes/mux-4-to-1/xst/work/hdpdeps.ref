@@ -1,0 +1,8 @@
+V3 3
+FL D:/semester-4/HWSWCD/vhdl_codes/mux-4-to-1/mux-4-to-1.vhd 2014/10/12.02:07:25 P.20131013
+EN work/mux_4_to_1 1413072594 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/mux-4-to-1/mux-4-to-1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux_4_to_1/Behavioral 1413072595 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/mux-4-to-1/mux-4-to-1.vhd \
+      EN work/mux_4_to_1 1413072594

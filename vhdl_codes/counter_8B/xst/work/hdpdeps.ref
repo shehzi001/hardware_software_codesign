@@ -1,0 +1,7 @@
+V3 3
+FL D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.vhd 2014/10/12.17:31:22 P.20131013
+EN work/COUNT_8B 1413127887 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/COUNT_8B/Behavioral 1413127888 \
+      FL D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.vhd EN work/COUNT_8B 1413127887

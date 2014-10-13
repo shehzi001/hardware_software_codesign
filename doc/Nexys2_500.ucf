@@ -1,0 +1,63 @@
+
+# 50MHz clock pin for Nexys 2 Board
+NET "clk"         LOC = "B8";    # Sch name = GCLK0
+
+# 7-segment display
+NET "sseg[0]"      LOC = "L18";   # Sch name = CA
+NET "sseg[1]"      LOC = "F18";   # Sch name = CB
+NET "sseg[2]"      LOC = "D17";   # Sch name = CC
+NET "sseg[3]"      LOC = "D16";   # Sch name = CD
+NET "sseg[4]"      LOC = "G14";   # Sch name = CE
+NET "sseg[5]"      LOC = "J17";   # Sch name = CF
+NET "sseg[6]"      LOC = "H14";   # Sch name = CG
+NET "sseg[7]"      LOC = "C17";   # Sch name = DP
+
+# anodes of the 7-segment display 
+NET "an[0]"       LOC = "F17";   # Sch name = AN0
+NET "an[1]"       LOC = "H17";   # Sch name = AN1
+NET "an[2]"       LOC = "C18";   # Sch name = AN2
+NET "an[3]"       LOC = "F15";   # Sch name = AN3
+
+# 8 leds
+NET "led[0]"      LOC = "J14";   # Sch name = JD10/LD0
+NET "led[1]"      LOC = "J15";   # Sch name = JD9/LD1
+NET "led[2]"      LOC = "K15";   # Sch name = JD8/LD2
+NET "led[3]"      LOC = "K14";   # Sch name = JD7/LD3
+NET "led[4]"      LOC = "E17";   # Sch name = LD4 s3e500 only
+NET "led[5]"      LOC = "P15";   # Sch name = LD5 s3e500 only
+NET "led[6]"      LOC = "F4";    # Sch name = LD6 s3e500 only
+NET "led[7]"      LOC = "R4";    # Sch name = LD7 s3e500 only
+
+# 8 slide switches
+NET "sw[0]"       LOC = "G18";   # Sch name = SW0
+NET "sw[1]"       LOC = "H18";   # Sch name = SW1
+NET "sw[2]"       LOC = "K18";   # Sch name = SW2
+NET "sw[3]"       LOC = "K17";   # Sch name = SW3
+NET "sw[4]"       LOC = "L14";   # Sch name = SW4
+NET "sw[5]"       LOC = "L13";   # Sch name = SW5
+NET "sw[6]"       LOC = "N17";   # Sch name = SW6
+NET "sw[7]"       LOC = "R17";   # Sch name = SW7
+
+# 4 push buttons
+NET "btn[0]"      LOC = "B18";   # Sch name = BTN0
+NET "btn[1]"      LOC = "D18";   # Sch name = BTN1
+NET "btn[2]"      LOC = "E18";   # Sch name = BTN2
+NET "btn[3]"      LOC = "H13";   # Sch name = BTN3
+
+# Uart RS232 connector 
+NET "rx"        LOC = "U6";    # Sch name = RS-RX
+NET "tx"        LOC = "P9";    # Sch name = RS-TX
+
+## VGA Connector 
+#NET "vgaRed<1>"   LOC = "R9";    # Bank = 2, Pin name = IO/D5, Type = DUAL, Sch name = RED0
+#NET "vgaRed<2>"   LOC = "T8";    # Bank = 2, Pin name = IO_L10N_2, Type = I/O,                        Sch name = RED1
+#NET "vgaRed<3>"   LOC = "R8";    # Bank = 2, Pin name = IO_L10P_2, Type = I/O,                        Sch name = RED2
+#NET "vgaGreen<1>" LOC = "N8";    # Bank = 2, Pin name = IO_L09N_2, Type = I/O,                        Sch name = GRN0
+#NET "vgaGreen<2>" LOC = "P8";    # Bank = 2, Pin name = IO_L09P_2, Type = I/O,                        Sch name = GRN1
+#NET "vgaGreen<3>" LOC = "P6";    # Bank = 2, Pin name = IO_L05N_2, Type = I/O,                        Sch name = GRN2
+#NET "vgaBlue<2>"  LOC = "U5";    # Bank = 2, Pin name = IO/VREF_2, Type = VREF,                       Sch name = BLU1
+#NET "vgaBlue<3>"  LOC = "U4";    # Bank = 2, Pin name = IO_L03P_2/DOUT/BUSY, Type = DUAL,             Sch name = BLU2
+
+#NET "Hsync"       LOC = "T4";    # Bank = 2, Pin name = IO_L03N_2/MOSI/CSI_B, Type = DUAL,            Sch name = HSYNC
+#NET "Vsync"       LOC = "U3";    # Bank = 2, Pin name = IO_L01P_2/CSO_B, Type = DUAL,                 Sch name = VSYNC
+

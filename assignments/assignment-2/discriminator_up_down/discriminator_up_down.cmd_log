@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/discriminator_up_down/discriminator_up_down.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/discriminator_up_down/discriminator_up_down.syr" 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/discriminator_up_down/discriminator_up_down.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/discriminator_up_down/discriminator_up_down.syr" 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/discriminator_up_down/discriminator_up_down.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/discriminator_up_down/discriminator_up_down.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc discriminator_up_down.ucf -p xc3s1200e-fg320-4 discriminator_up_down.ngc discriminator_up_down.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o discriminator_up_down_map.ncd discriminator_up_down.ngd discriminator_up_down.pcf 
+par -w -intstyle ise -ol high -t 1 discriminator_up_down_map.ncd discriminator_up_down.ncd discriminator_up_down.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml discriminator_up_down.twx discriminator_up_down.ncd -o discriminator_up_down.twr discriminator_up_down.pcf -ucf discriminator_up_down.ucf 
+bitgen -intstyle ise -f discriminator_up_down.ut discriminator_up_down.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\semester-4\HWSWCD\vhdl_codes\mux-4-to-1\mux_4_to_1.ncd
+OUTFILE=D:\semester-4\HWSWCD\vhdl_codes\mux-4-to-1\mux_4_to_1.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\semester-4\HWSWCD\vhdl_codes\mux-4-to-1
+LICENSE=WebPack
+USER_INFO=210949998_0_0_271

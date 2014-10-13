@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.syr" 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.syr" 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc COUNT_8B.ucf -p xc3s1200e-fg320-4 COUNT_8B.ngc COUNT_8B.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o COUNT_8B_map.ncd COUNT_8B.ngd COUNT_8B.pcf 
+par -w -intstyle ise -ol high -t 1 COUNT_8B_map.ncd COUNT_8B.ncd COUNT_8B.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml COUNT_8B.twx COUNT_8B.ncd -o COUNT_8B.twr COUNT_8B.pcf -ucf COUNT_8B.ucf 
+bitgen -intstyle ise -f COUNT_8B.ut COUNT_8B.ncd 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.syr" 
+xst -intstyle ise -ifn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.xst" -ofn "D:/semester-4/HWSWCD/vhdl_codes/counter_8B/COUNT_8B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc COUNT_8B.ucf -p xc3s1200e-fg320-4 COUNT_8B.ngc COUNT_8B.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o COUNT_8B_map.ncd COUNT_8B.ngd COUNT_8B.pcf 
+par -w -intstyle ise -ol high -t 1 COUNT_8B_map.ncd COUNT_8B.ncd COUNT_8B.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml COUNT_8B.twx COUNT_8B.ncd -o COUNT_8B.twr COUNT_8B.pcf -ucf COUNT_8B.ucf 
+bitgen -intstyle ise -f COUNT_8B.ut COUNT_8B.ncd 

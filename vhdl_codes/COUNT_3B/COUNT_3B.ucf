@@ -1,0 +1,30 @@
+# 8 leds
+NET "COUNT[0]"      LOC = "J14";   # Sch name = JD10/LD0
+NET "COUNT[1]"      LOC = "J15";   # Sch name = JD9/LD1
+NET "COUNT[2]"      LOC = "K15";   # Sch name = JD8/LD2
+NET "COUNT[3]"      LOC = "K14";
+
+# 8 slide switches
+NET "UP_DOWN"       LOC = "G18";   # Sch name = SW0
+
+# 4 push buttons
+NET "RESET"      LOC = "B18";   # Sch name = BTN0
+
+# 50MHz clock pin for Nexys 2 Board
+NET "CLK"         LOC = "B8";    # Sch name = GCLK0
+
+
+# 7-segment display
+NET "segment7[6]"      LOC = "L18";   # Sch name = CA
+NET "segment7[5]"      LOC = "F18";   # Sch name = CB
+NET "segment7[4]"      LOC = "D17";   # Sch name = CC
+NET "segment7[3]"      LOC = "D16";   # Sch name = CD
+NET "segment7[2]"      LOC = "G14";   # Sch name = CE
+NET "segment7[1]"      LOC = "J17";   # Sch name = CF
+NET "segment7[0]"      LOC = "H14";   # Sch name = CG
+
+# anodes of the 7-segment display 
+NET "an[0]"       LOC = "F17";   # Sch name = AN0
+NET "an[1]"       LOC = "H17";   # Sch name = AN1
+NET "an[2]"       LOC = "C18";   # Sch name = AN2
+NET "an[3]"       LOC = "F15";   # Sch name = AN3

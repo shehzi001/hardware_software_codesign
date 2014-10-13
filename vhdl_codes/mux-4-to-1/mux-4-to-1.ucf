@@ -1,0 +1,7 @@
+NET "i0" LOC = G18;
+NET "i1" LOC = H18;
+NET "i2" LOC = K18;
+NET "i3" LOC = K17;
+NET "sel(0)" LOC = R17;
+NET "sel(1)" LOC = N17;
+NET "q" LOC = J14;

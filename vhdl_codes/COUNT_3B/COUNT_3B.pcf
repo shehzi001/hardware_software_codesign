@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Oct 12 18:45:58 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "UP_DOWN" LOCATE = SITE "G18" LEVEL 1;
+COMP "segment7<0>" LOCATE = SITE "H14" LEVEL 1;
+COMP "segment7<1>" LOCATE = SITE "J17" LEVEL 1;
+COMP "segment7<2>" LOCATE = SITE "G14" LEVEL 1;
+COMP "segment7<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "segment7<4>" LOCATE = SITE "D17" LEVEL 1;
+COMP "segment7<5>" LOCATE = SITE "F18" LEVEL 1;
+COMP "segment7<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "COUNT<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "COUNT<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "COUNT<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
+COMP "COUNT<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "RESET" LOCATE = SITE "B18" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

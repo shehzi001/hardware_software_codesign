@@ -1,0 +1,3 @@
+NET "clk_in"         LOC = "B8";    # Sch name = GCLK0
+NET "rst"   LOC = "B18";   # Sch name = BTN0
+NET "clk_out"      LOC = "J14";   # Sch name = JD10/LD0

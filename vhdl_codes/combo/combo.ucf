@@ -1,0 +1,6 @@
+NET "input(0)" LOC = G18;
+NET "input(1)" LOC = H18;
+NET "input(2)" LOC = K18;
+NET "input(3)" LOC = K17;
+NET "input(4)" LOC = L14;
+NET "output" LOC = J14;
